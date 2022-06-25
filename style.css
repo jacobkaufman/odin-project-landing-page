@@ -30,12 +30,12 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
-  padding: 8px 64px;
+  padding: 8px 128px;
 }
 
-.logo {
+.logo h1 {
   color: #F9FAF8;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .navigation {
@@ -45,5 +45,53 @@ body {
   gap: 16px;
 }
 
+.navigation a {
+  font-size: 18px;
+}
 
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 96px 128px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  flex: .85;
+}
+
+.hero-left h2 {
+  font-size: 48px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color:#E5E7EB;
+  font-weight: 200;
+}
+
+.hero-left button {
+  margin-top: 16px;
+  padding: 8px;
+  background-color: #3882F6;
+  border-color: #3882F6;
+  border-radius: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 33%;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+  height: 150px;
+  padding: 16px;
+}
 
