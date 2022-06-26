@@ -105,8 +105,8 @@ body {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 96px;
-  padding-right: 96px;
-  padding-left: 96px;
+  padding-right: 128px;
+  padding-left: 128px;
 }
 
 .card-container h3 {
@@ -119,7 +119,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 48px;
+  gap: 96px;
 }
 
 .card {
@@ -140,4 +140,24 @@ body {
   width: 100px;
   text-align: center;
   padding-top: 8px;
+}
+
+.quote-container {
+  display: flex;
+  padding: 96px 128px;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  color:#1F2937
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.author {
+  font-weight: 900;
+  color:#1F2937;
+  align-self: flex-end;
 }
