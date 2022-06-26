@@ -91,7 +91,53 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #6d747d;
-  height: 150px;
+  height: 200px;
   padding: 16px;
+  width: 350px;
+  font-weight: 200;
+  color: #E5E7EB;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 96px;
+  padding-right: 96px;
+  padding-left: 96px;
+}
+
+.card-container h3 {
+  padding-bottom: 32px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 48px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  border: solid 2px #3882F6;
+  border-radius: 8px;
+}
+
+.card-text {
+  width: 100px;
+  text-align: center;
+  padding-top: 8px;
+}
